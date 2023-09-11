@@ -1,0 +1,24 @@
+steps:
+
+1. Install node
+2. Run commands
+    1. npm install -D tailwindcss vite
+    2. npx tailwindcss init -p
+3. Install tailwind css intelisense extension
+4. Add * in content in tailwind.comfig.js file  --> * means everyfile in the project has access to the tailwind.
+5. Add scripts in package.json  {
+  "scripts":{
+    "start":"vite"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
+
+6. Create main.css and insert and link:
+        1. @tailwind base;
+        2. @tailwind components;
+        3. @tailwind utilities;
