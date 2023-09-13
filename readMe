@@ -22,3 +22,6 @@ steps:
         1. @tailwind base;
         2. @tailwind components;
         3. @tailwind utilities;
+
+7. after setUp, if you want to view your project into the browser, just type npm run start in the terminal of vs code ,
+   Now, you will get a link, just copy and paste is into the browser, and you are all good to go.
